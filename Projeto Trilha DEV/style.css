@@ -10,21 +10,42 @@ body {
     background-color: #023047;
 }
 
+div.head {
+    display: inline;
+    padding: 5px;
+}
+
 h1.fontstyle {
     font-family: Press Start 2P, Arial, Helvetica, sans-serif;
     color: white;
     display: inline;
 }
-
-header > div > h2 {
-    display: inline;
+header {
     margin: 30px;
-    
+}
+.divmenu {
+    display: inline-block;
+    float: right;
+}
+.menu {
+    list-style: none;
+    padding: 0px;
+}
+.menu li{
+    display: inline;
+    font-size: 20px;
 }
 
-header > div > h2#especial {
+.menu li a {
+    text-decoration: none;
+    padding: 30px;
+}
+
+button#especial {
     background-color: #FA8400;
-    color: #023047;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
 }
 
 
@@ -34,14 +55,18 @@ h1.padrao {
     font-family: press start 2P, Arial, Helvetica, sans-serif;
 }
 
-div.head {
-    display: inline;
-    padding: 5px;
-}
 
-section > div {
+section#one > div {
     display: inline;
     margin: 8px;
+}
+
+section#two > div > p{
+    width: 600px;
+    font-size: 20px;
+    margin-left: 10px;
+    
+
 }
 
 table {
