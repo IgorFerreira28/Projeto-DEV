@@ -4,6 +4,19 @@
 
 *{
     color: white;
+    font-family: Montserrat;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header{
+    width: 1440px;
+    height: 152px;
+    flex-shrink: 0;
 }
 
 body {
@@ -44,6 +57,7 @@ header {
 button#especial {
     background-color: #FA8400;
     font-size: 20px;
+    color: #023047;
     width: 100px;
     height: 50px;
 }
@@ -52,21 +66,61 @@ button#especial {
 h1.padrao {
     color: #FA8400;
     text-align: center;
-    font-family: press start 2P, Arial, Helvetica, sans-serif;
+    font-family: Press Start 2P;
+    font-size: 40px;
+    font-style: normal; 
+    font-weight: 400;
+    line-height: 55px; 
 }
 
 
 section#one > div {
     display: inline;
     margin: 8px;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+div#pac{
+    display: flex;
+    width: 1240px;
+    height: 493px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+section#two > div{
+    width: 625px;
+    margin-left: 10px;
+    height: 625px;
+    padding-right: 10px;
+    
 }
 
 section#two > div > p{
-    width: 600px;
-    font-size: 20px;
+    width: 625px;
     margin-left: 10px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
     
 
+}
+
+div.imgmenu{
+    background: url(imagens/aboutus.png), lightgray 50%, cover no-repeat;
+    width: 630.816px;
+    height: 864px;
+    flex-shrink: 0;
+    display: flex;
 }
 
 table {
@@ -89,4 +143,18 @@ td{
 
 footer {
     text-align: center;
+    width: 1440px;
+    height: 100px;
+    flex-shrink: 0;
+    border-top: 1px solid #DFDFE4
 }
+footer > p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
