@@ -29,7 +29,7 @@ div.head {
 }
 
 h1.fontstyle {
-    font-family: Press Start 2P, Arial, Helvetica, sans-serif;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     color: white;
     display: inline;
 }
@@ -128,7 +128,7 @@ section#car {
 }
 
 
-section#Carreira > div{
+section#Carreira  div{
     border: 2px solid white;
     width: 400px;
     height: 127px;
@@ -143,10 +143,16 @@ section#Carreira > div{
     margin-bottom: 10px;
 }
 
+section#Carreira > a {
+    width: 400px;
+    height: 127px;
+    
+}
 
-div.divint {
+section#Carreira > a > div > div.divint {
     border: 1px solid #DFDFE4;
     border-radius: 5px;
+    width: auto;
     display: inline-flex;
     height: 20px;
     padding: 6px 13px;
@@ -155,11 +161,21 @@ div.divint {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 0px;
+    margin-right: 15px;
 }
 div.divint  p {
     margin: 0px;
 }
 
+section#Carreira > a:hover  div{
+    border: 2px solid #FA8400;
+}
+
+
+section#Carreira > a:hover > div > p{
+    color:  #FA8400;
+}
 
 footer {
     text-align: center;
