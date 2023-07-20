@@ -1,9 +1,0 @@
-[build]
-    command = "npm run build"
-    publish = "/build"
-    base = "/"
-
-[[redirects]]
-    from = "/*"
-    to = "/Projeto Trilha DEV/Páginas html/index.html"
-    status = 200
